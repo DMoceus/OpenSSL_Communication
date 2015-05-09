@@ -48,7 +48,7 @@ int main(int argc, char** argv){
 	}
 	while(isRunning == true){
 		sprintf(challenge,"%d",checkNumber);
-		printf("checkNumber: %d\nchallenge: %s\n",checkNumber,challenge);
+		//printf("checkNumber: %d\nchallenge: %s\n",checkNumber,challenge);
 //		itoa(checkNumber,challenge,10);
 		SSL_write(ssl,challenge,sizeof(challenge));
 		bytes = SSL_read(ssl,response, sizeof(response));
