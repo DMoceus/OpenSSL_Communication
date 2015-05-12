@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+FILEPATH=./untarballs/*
+BASEPATH=/home/spanhal1/Documents/SecurityP4
+
+#for fmake in $FILEPATH
+#do
+#	echo "********************************************"
+ #       echo "Running code in $1 DIRECTORY"
+#	echo "********************************************"
+
+ #       cd $1
+#	RUNFILEPATH=./*
+#	for f in $RUNFILEPATH
+#	do
+        #	echo "Operation on $f file."
+#		if [[ -x "$f" ]];
+#		then
+#		    echo "File '$f' is executable"
+		     ./sclient 192.168.44.130 8080		    
+		#else
+		#    echo "File '$f' is not executable or found"
+#		fi
+#	done
+	echo ""
+	read -p "Hit ENTER to continue"
+        cd $BASEPATH
+#done
+
+
+

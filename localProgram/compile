@@ -1,0 +1,2 @@
+g++ ./sclient.cc -lcrypto -lssl -o ./sclient
+g++ ./sserver.cc -lcrypto -lssl -o ./sserver
